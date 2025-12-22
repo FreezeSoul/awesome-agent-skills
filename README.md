@@ -41,6 +41,7 @@ This architecture delivers:
 - [📖 Learn & Explore](#-learn--explore) - Master the concepts through deep-dive articles
 - [🎬 Videos & Tutorials](#-videos--tutorials) - Watch experts build real-world agent systems
 - [🔬 Research Papers](#-research-papers) - Understand the science behind agent capabilities
+- [❓ Frequently Asked Questions](#-frequently-asked-questions) - Get answers to common questions
 - [💬 Join the Community](#-join-the-community) - Connect with pioneers shaping the ecosystem
 - [🤝 Contributing](#-contributing) - Help shape the future of agent development
 
@@ -214,6 +215,99 @@ This architecture delivers:
 - 📄 [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction](https://arxiv.org/abs/2510.15863) (2024) - Learning generalizable skills through polymorphic abstraction
 
 > 💡 **Note:** Agent Skills (SKILL.md format) is a recent innovation (2024-2025), so academic research is still emerging. Most papers focus on related concepts like skill learning, tool use, and agent architectures.
+
+## ❓ Frequently Asked Questions
+
+### What are Agent Skills?
+
+Agent Skills are modular, standardized `SKILL.md` packages that provide AI agents with on-demand capabilities. Instead of fine-tuning models or bloating context windows, skills enable **progressive disclosure**: lightweight metadata loads at startup (~50 tokens), full instructions activate when needed (~2-5K tokens), and resources load dynamically during execution.
+
+### How do Agent Skills differ from fine-tuning?
+
+Fine-tuning modifies model weights permanently (expensive, inflexible), while Agent Skills provide **runtime knowledge injection** that's instantly updatable, shareable across platforms, and requires zero retraining. Update a skill once, and every agent using it benefits immediately.
+
+### What's the difference between Agent Skills and MCP (Model Context Protocol)?
+
+**Agent Skills** focus on **capabilities and workflows** (how to do X), while **MCP** focuses on **data access** (connecting to APIs, databases). They're complementary: use MCP to connect to external data sources, use Skills to teach agents how to process that data. Many developers use both together.
+
+### How do I create my first Agent Skill?
+
+1. Create a `SKILL.md` file with YAML frontmatter (name, description)
+2. Write clear instructions in markdown (what, when, how)
+3. Add optional `scripts/` folder for code references
+4. Place in `.github/skills/` or `.claude/skills/` directory
+5. Test with compatible platforms (Claude Code, Cursor, GitHub Copilot)
+
+👉 Full guide: [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)
+
+### Which AI platforms support Agent Skills?
+
+Major platforms with native support include: **Claude** (Claude.ai, Claude Code), **OpenAI** (Codex CLI), **GitHub Copilot**, **Cursor**, **VS Code Insiders**, **OpenCode**, **Amp**, **Letta**, and **Goose**. The ecosystem is rapidly expanding as more platforms adopt the open standard.
+
+### Can I use Agent Skills with ChatGPT or other LLMs?
+
+While ChatGPT doesn't natively support the Agent Skills format, you can use universal loaders like [openskills](https://github.com/numman-ali/openskills) to integrate skills with any LLM platform. The skills specification is open and platform-agnostic by design.
+
+### Are Agent Skills secure?
+
+Agent Skills introduce new security considerations. Since skills can execute code and access files, always **review skills before installation** from untrusted sources. Use tools like [skillcheck](https://github.com/agentigy/skillcheck) to scan for vulnerabilities. Research shows potential for prompt injection attacks ([arxiv.org/abs/2510.26328](https://arxiv.org/abs/2510.26328)), so treat skills like code packages—audit before trusting.
+
+### How do I share Agent Skills with my team?
+
+**Option 1**: Commit to your repository's `.github/skills/` or `.claude/skills/` directory—agents automatically discover them.  
+**Option 2**: Publish to GitHub as a standalone repo (e.g., `my-org/data-analysis-skill`)—others can reference or clone.  
+**Option 3**: Use [skillport](https://github.com/gotalab/skillport) or [agent-skills-mcp](https://github.com/DiscreteTom/agent-skills-mcp) for cross-platform distribution.
+
+### What makes a good Agent Skill?
+
+**Best practices:**
+- ✅ **Single responsibility** - One clear capability per skill
+- ✅ **Progressive detail** - Brief metadata, detailed instructions, extensive resources
+- ✅ **Context-aware** - Include when/why to use (not just how)
+- ✅ **Testable** - Provide example inputs/outputs
+- ✅ **Discoverable** - Descriptive names and rich descriptions
+
+### When should I use Agent Skills vs custom tools/functions?
+
+Use **Agent Skills** when:
+- Capabilities need to work across multiple platforms
+- Instructions are complex multi-step workflows
+- You want version control and collaborative editing
+- Knowledge needs frequent updates
+
+Use **custom tools/functions** when:
+- Platform-specific integration required (e.g., API-specific features)
+- Real-time data access needed
+- Computational logic can't be expressed as instructions
+
+### Can Agent Skills call other Agent Skills?
+
+Yes! Skills can reference other skills in their instructions, enabling **skill composition**. This allows building complex capabilities from simple, reusable building blocks. Some platforms also support **skill libraries** where skills automatically discover and leverage related capabilities.
+
+### How do Agent Skills impact token usage?
+
+**Dramatically reduce it.** Traditional approaches load all documentation upfront (10K-100K tokens), while skills load only what's needed (50 tokens metadata + 2-5K when activated). For agents managing 50+ capabilities, this means **90%+ token reduction** during idle time.
+
+### Are Agent Skills just for coding tasks?
+
+No—Agent Skills work for any domain: **data analysis**, **content creation**, **project management**, **research**, **security operations**, **automation**, and more. The format is domain-agnostic. Think of them as "packages for knowledge" rather than "packages for code."
+
+### Where can I find production-ready Agent Skills?
+
+Start with:
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic collection
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - 50+ verified skills
+- This repository's [Ready-to-Use Skills](#-ready-to-use-skills) section
+
+### How often should I update my Agent Skills?
+
+Update skills whenever:
+- Platform APIs or tools change
+- Better approaches emerge
+- Team workflows evolve
+- User feedback reveals gaps
+
+**Pro tip**: Add version numbers and changelogs to your skills for better tracking.
 
 ## 💬 Join the Community
 
