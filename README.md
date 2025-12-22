@@ -15,6 +15,7 @@
 - [🎁 Ready-to-Use Skills](#-ready-to-use-skills) - Browse collections of pre-built skills
 - [🛠️ Tools & Platforms](#️-tools--platforms) - Discover tools that support Agent Skills
 - [📖 Learn & Explore](#-learn--explore) - Articles, guides, and documentation
+- [🎬 Videos & Tutorials](#-videos--tutorials) - Watch and learn from video content
 - [🔬 Research Papers](#-research-papers) - Academic research on Agent Skills
 - [💬 Join the Community](#-join-the-community) - Connect with other builders
 - [🤝 Contributing](#-contributing) - Help make this resource even better!
@@ -45,6 +46,13 @@
 - [OmidZamani/dspy-skills](https://github.com/OmidZamani/dspy-skills) - Claude Skills for DSPy framework.
 - [gradion-ai/freeact-skills](https://github.com/gradion-ai/freeact-skills) - Predefined skills for the freeact agent library.
 - [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Pydantic AI with Agent Skills.
+- [kylehughes/the-unofficial-swift-programming-language-skill](https://github.com/kylehughes/the-unofficial-swift-programming-language-skill) - The Swift Programming Language packaged as a Skill.
+- [gadievron/raptor](https://github.com/gadievron/raptor) - Security agent for offensive/defensive operations with sub-agents.
+- [gapmiss/obsidian-plugin-skill](https://github.com/gapmiss/obsidian-plugin-skill) - Skill for Obsidian.md plugin development.
+- [dave1010/skills-to-agents](https://github.com/dave1010/skills-to-agents) - Automatic support for Claude Skills in any agent with AGENTS.md.
+- [frmoretto/stream-coding](https://github.com/frmoretto/stream-coding) - Stream Coding methodology for 10-20x AI-accelerated development velocity.
+- [jakedahn/pomodoro](https://github.com/jakedahn/pomodoro) - System Skill Pattern reference for skills that remember and improve.
+- [yzfly/Mind-Cloning-Engineering](https://github.com/yzfly/Mind-Cloning-Engineering) - Mind Cloning Engineering with LLM Native Agent Skills.
 
 ## 🛠️ Tools & Platforms
 
@@ -68,6 +76,9 @@
 - [vibe-tools](https://github.com/eastlondoner/vibe-tools) - 👥 Give your agent an AI team with advanced skills
 - [IntentKit](https://github.com/crestalnetwork/intentkit) - 🎭 Framework for intent-driven AI agents
 - [Agentica](https://github.com/wrtnlabs/agentica) - 📘 TypeScript AI function calling framework
+- [agentigy/skillcheck](https://github.com/agentigy/skillcheck) - 🔒 Security scanner for SKILL.md files - detect vulnerabilities before production
+- [AIPexStudio/AIPex](https://github.com/AIPexStudio/AIPex) - 🌐 Privacy-first AI browser automation with Agent Skills
+- [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) - 🎬 ClaudeCode Workflow Studio VSCode extension with slash commands
 
 ## 📖 Learn & Explore
 
@@ -86,6 +97,24 @@
 ### 📰 Featured Articles
 
 - [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - 🎯 The original announcement from Anthropic Engineering
+- [How I Built Agent Skills for Claude Code](https://dev.to/nunc/how-i-built-agent-skills-for-claude-code-oj4) - 🛠️ 8-minute tutorial on building custom Agent Skills from scratch
+- [Claude Skills vs MCP: Complete Guide](https://dev.to/jimquote/claude-skills-vs-mcp-complete-guide-to-token-efficient-ai-agent-architecture-4mkf) - ⚖️ Comparison of Skills and Model Context Protocol architectures
+- [GitHub Copilot Agent Skills: Teaching AI Your Repository Patterns](https://dev.to/qa-leaders/github-copilot-agent-skills-teaching-ai-your-repository-patterns-1oa8) - 🔍 Using Agent Skills with GitHub Copilot
+- [From 2 Hours to 5 Minutes: Automating CDC Transformations](https://medium.com/@jagadeesh.subramani) - 📊 Real-world case study: 95% efficiency gain with Agent Skills
+- [Advent of AI 2025 - Day 14: Agent Skills](https://dev.to/nickytonline/advent-of-ai-2025-day-14-agent-skills-4d48) - 🎄 5-minute guide to Agent Skills with Goose
+- [Agent Skill in VS Code](https://dev.to/thangchung/agent-skill-in-vs-code-77d) - 💻 Using Agent Skills directly in VS Code
+- [Code Sandbox Tech Behind Manus and Claude Agent Skills](https://dev.to/qtalen/exclusive-reveal-code-sandbox-tech-behind-manus-and-claude-agent-skills-ef2) - 🏗️ Deep dive into sandboxing technology
+- [OpenSkills: Adding Claude Skills for Any Agent or IDE](https://dev.to/wakeupmh/openskills-adding-claude-skills-and-superpowers-for-any-agent-or-ide-3j35) - 🚀 Universal skills integration guide
+- [Agent Skills Framework Analysis: Litho Implementation](https://dev.to/sopaco/agent-skills-framework-analysis-litho-implementation-and-design-philosophy-2l91) - 🏛️ Architecture and design patterns analysis
+- [The Great AI Agent Configuration Confusion](https://medium.com/@satinath.mondal/the-great-ai-agent-configuration-confusion-agents-md-skill-md-and-whats-next-12345) - 📋 Understanding configuration standards (SKILL.md, AGENTS.md)
+
+## 🎬 Videos & Tutorials
+
+**Learn by watching!** Video tutorials and demonstrations of Agent Skills in action.
+
+- [Claude Agent Skills Tutorial](https://www.youtube.com/watch?v=fOxC44g8vig) - 🎥 Comprehensive video tutorial on implementing Agent Skills with SKILL.md format
+
+> 💡 **Know a great video?** We're actively looking for more video content! Please [contribute](CONTRIBUTING.md) if you find or create relevant tutorials.
 
 ## 🔬 Research Papers
 
