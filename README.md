@@ -15,6 +15,7 @@ Think of skills as "plugins" or "knowledge packs" that your agent can read to le
 - [🧩 Skill Collections](#-skill-collections)
 - [🛠️ Tools & Ecosystem](#-tools--ecosystem)
 - [📚 Essential Reading](#-essential-reading)
+- [📺 Videos](#-videos)
 - [🔬 Research & Papers](#-research--papers)
 - [💬 Join the Community](#-join-the-community)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -31,6 +32,11 @@ Ready-to-use skills to supercharge your agents.
 - [lifegenieai/claude-skills](https://github.com/lifegenieai/claude-skills) - Skills for voice AI, image generation, and web dev.
 - [hikanner/agent-skills](https://github.com/hikanner/agent-skills) - Curated collection of Claude Agent Skills.
 - [GuDaStudio/skills](https://github.com/GuDaStudio/skills) - Skills for collaboration between Claude and other agents.
+- [bencium/bencium-claude-code-design-skill](https://github.com/bencium/bencium-claude-code-design-skill) - Comprehensive UX Designer skill.
+- [Johnny2x2/Agent-Skills](https://github.com/Johnny2x2/Agent-Skills) - A library of Anthropic Agent Skills.
+- [dennytosp/nextjs-claude-design-skill](https://github.com/dennytosp/nextjs-claude-design-skill) - Next.js UX Designer skill.
+- [jakedahn/pomodoro](https://github.com/jakedahn/pomodoro) - Reference implementation of the 'System Skill Pattern' (CLI + SKILL.md + Database).
+- [Thomas-TyTech/browser-skill](https://github.com/Thomas-TyTech/browser-skill) - Token-efficient `SKILL.md` bundle for controlling Chrome.
 - [fabioc-aloha/spotify-skill](https://github.com/fabioc-aloha/spotify-skill) - 🎵 Spotify API integration skill.
 - [kylehughes/the-unofficial-swift-concurrency-migration-skill](https://github.com/kylehughes/the-unofficial-swift-concurrency-migration-skill) - Swift Concurrency Migration Guide as a Skill.
 - [gmickel/sheets-cli](https://github.com/gmickel/sheets-cli) - 📊 Google Sheets CLI with Agent Skills.
@@ -58,6 +64,16 @@ Platforms and tools that support the Agent Skills specification.
 - [vibe-tools](https://github.com/eastlondoner/vibe-tools) - Give Cursor Agent an AI Team and Advanced Skills.
 - [IntentKit](https://github.com/crestalnetwork/intentkit) - Framework for AI agents equipped with powerful skills.
 - [Agentica](https://github.com/wrtnlabs/agentica) - TypeScript AI Function Calling Framework.
+- [gemini-cli-skillz](https://github.com/intellectronica/gemini-cli-skillz) - Gemini CLI extension enabling Anthropic-style Agent Skills.
+- [devskills](https://github.com/mk0e/devskills) - MCP server to bring Agent Skills to any MCP-compatible coding agent.
+- [baml-anthropic-skills-integration](https://github.com/snedea/baml-anthropic-skills-integration) - Integration between BAML and Anthropic Agent Skills.
+- [agentskills-mcp](https://github.com/zouyingcao/agentskills-mcp) - MCP server implementation for Agent Skills.
+- [cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) - Workflow studio for ClaudeCode with skill support.
+- [skillcheck](https://github.com/agentigy/skillcheck) - Security scanner for `SKILL.md` files.
+- [cognitive-toolworks](https://github.com/williamzujkowski/cognitive-toolworks) - Generates agent artifacts like `SKILL.md` using LLM.
+- [skill-optimization](https://github.com/instavm/skill-optimization) - DSPy optimization techniques for `SKILL.md` files.
+- [AI-anything](https://github.com/yfe404/AI-anything) - Transforms YouTube videos into `SKILL.md` files.
+- [system-skills-pattern-template](https://github.com/m3lander/system-skills-pattern-template) - Template for building System Skills (CLI + SKILL.md + Database).
 
 ## 📚 Essential Reading
 
@@ -66,6 +82,13 @@ Platforms and tools that support the Agent Skills specification.
 - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - Guide on using skills.
 - [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills) - Guide on authoring skills.
 - [Skills API Quickstart](https://docs.claude.com/en/api/skills-guide#creating-a-skill) - Technical documentation.
+- [Stream Coding Methodology](https://github.com/frmoretto/stream-coding) - Documentation-first methodology including official `SKILL.md` for Claude/Cursor.
+
+## 📺 Videos
+
+*Note: As this is a new standard, video content is emerging. Check back soon for tutorials and demos!*
+
+- [Anthropic Agent Skills Announcement](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - (Blog post with embedded concepts).
 
 ## 🔬 Research & Papers
 
