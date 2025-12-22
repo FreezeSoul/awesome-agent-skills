@@ -4,15 +4,29 @@
 
 ## 💡 What Are Agent Skills?
 
-**Agent Skills** represent a paradigm shift in AI agent development. Instead of hardcoding capabilities or overwhelming models with massive context, skills are **modular, discoverable packages** of knowledge stored as simple `SKILL.md` files with optional scripts and resources.
+**Agent Skills** mark a fundamental shift from monolithic AI systems to composable agent architectures. Rather than embedding capabilities through expensive fine-tuning or bloating context windows with static documentation, skills provide **modular, on-demand knowledge injection** through standardized `SKILL.md` packages.
 
-The innovation lies in **progressive disclosure**: agents dynamically discover available skills through lightweight metadata, then load full instructions only when needed. This means:
-- 🧠 **Infinite scalability** - Add unlimited capabilities without context bloat
-- ⚡ **Zero latency** - Skills load on-demand, not upfront
-- 🔄 **Universal portability** - One skill works across multiple agent platforms
-- 📦 **Simple distribution** - Share skills as easily as npm packages
+### The Architecture
 
-**Think of it as**: The package manager revolution, but for AI agents. Skills to agents are what libraries are to programming languages.
+**Progressive Disclosure at Scale**: Skills leverage a three-tier context management strategy:
+1. **Discovery** (~50 tokens): Lightweight metadata (name + description) loads at startup
+2. **Activation** (~2-5K tokens): Full `SKILL.md` instructions load when task-relevant  
+3. **Execution**: Referenced scripts and resources accessed dynamically
+
+This architecture delivers:
+- 🧠 **Infinite capability scaling** - No context window trade-offs
+- ⚡ **Sub-second skill loading** - Zero startup latency penalty
+- 🔄 **Cross-platform portability** - Write once, deploy to any compatible agent
+- 📦 **Frictionless distribution** - Share via Git, install like packages
+
+### The Revolution
+
+**From specialized agents to universal platforms**: Instead of building separate coding agents, research agents, and analysis agents, the industry is converging on **general-purpose agents with skill libraries**. One agent. Unlimited specializations. Dynamic composition.
+
+> "We used to think agents in different domains will look very different. The agent underneath is actually more universal than we thought."  
+> — *Barry Zhang, Anthropic Research*
+
+**The open standard advantage**: Major platforms (OpenAI, GitHub, Microsoft, Cursor) have adopted the Agent Skills specification, creating **network effects**: every skill you create works across the entire ecosystem. This is the npm moment for AI agents.
 
 ### 🏷️ Key Topics
 
@@ -87,14 +101,17 @@ The innovation lies in **progressive disclosure**: agents dynamically discover a
 ### 🎨 IDEs & Code Editors
 
 - [OpenCode](https://opencode.ai/) - 🎯 AI development tool with built-in Agent Skills support
-- [Cursor](https://cursor.com/) - ⚡ AI-powered code editor with native skills integration
+- [Cursor](https://cursor.com/) - ⚡ AI-powered code editor with native skills integration ([docs](https://cursor.com/docs/context/skills))
 - [Amp](https://ampcode.com/) - 🚀 Next-gen AI coding assistant
 - [Claude Code](https://claude.ai/code) - 🤖 Anthropic's coding tool with first-class skills support
+- [OpenAI Codex](https://developers.openai.com/codex/skills/) - 💻 OpenAI's CLI agent with Agent Skills support
 
 ### 🤖 AI Agent Platforms
 
 - [Letta](https://www.letta.com/) - 🧠 Build stateful LLM agents with memory
 - [Goose](https://block.github.io/goose/) - 🦆 Open source AI agent framework
+- [GitHub Copilot](https://github.com/features/copilot) - 💙 GitHub's AI coding assistant with Agent Skills support ([docs](https://docs.github.com/copilot/concepts/agents/about-agent-skills), [announcement](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/))
+- [VS Code](https://code.visualstudio.com/) - 💻 Microsoft's editor with Agent Skills in Insiders build
 
 ### 🔧 Developer Tools & Libraries
 
@@ -105,6 +122,7 @@ The innovation lies in **progressive disclosure**: agents dynamically discover a
 - [agentigy/skillcheck](https://github.com/agentigy/skillcheck) - 🔒 Security scanner for SKILL.md files - detect vulnerabilities before production
 - [AIPexStudio/AIPex](https://github.com/AIPexStudio/AIPex) - 🌐 Privacy-first AI browser automation with Agent Skills
 - [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) - 🎬 ClaudeCode Workflow Studio VSCode extension with slash commands
+- [LangChain Deep Agents](https://github.com/langchain-ai/deepagents) - 🔗 Open source agent harness with skills support ([blog](https://blog.langchain.com/using-skills-with-deep-agents/))
 
 ## 📖 Learn & Explore
 
@@ -118,8 +136,7 @@ The innovation lies in **progressive disclosure**: agents dynamically discover a
 ### 🏗️ Building Skills
 
 - [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills) - ✍️ Step-by-step authoring guide
-- [Skills API Quickstart](https://docs.claude.com/en/api/skills-guide#creating-a-skill) - 💻 Technical documentation
-
+- [Skills API Quickstart](https://docs.claude.com/en/api/skills-guide#creating-a-skill) - 💻 Technical documentation- [A2A Protocol: Agent Skills Tutorial](https://a2a-protocol.org/latest/tutorials/python/3-agent-skills-and-card/) - 🤝 How skills work in the Agent-to-Agent protocol
 ### 📰 Featured Articles
 
 - [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - 🎯 The original announcement from Anthropic Engineering
@@ -133,6 +150,11 @@ The innovation lies in **progressive disclosure**: agents dynamically discover a
 - [OpenSkills: Adding Claude Skills for Any Agent or IDE](https://dev.to/wakeupmh/openskills-adding-claude-skills-and-superpowers-for-any-agent-or-ide-3j35) - 🚀 Universal skills integration guide
 - [Agent Skills Framework Analysis: Litho Implementation](https://dev.to/sopaco/agent-skills-framework-analysis-litho-implementation-and-design-philosophy-2l91) - 🏛️ Architecture and design patterns analysis
 - [The Great AI Agent Configuration Confusion](https://medium.com/@satinath.mondal/the-great-ai-agent-configuration-confusion-agents-md-skill-md-and-whats-next-12345) - 📋 Understanding configuration standards (SKILL.md, AGENTS.md)
+
+### 📰 Industry News & Analysis
+
+- [Anthropic launches enterprise Agent Skills and opens the standard](https://venturebeat.com/ai/anthropic-launches-enterprise-agent-skills-and-opens-the-standard) - 🎯 VentureBeat deep dive: Why Anthropic is giving away its competitive advantage
+- [Agent Skills: Anthropic's Next Bid to Define AI Standards](https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/) - 🖋️ The New Stack analysis of the open standard strategy
 
 ## 🎬 Videos & Tutorials
 
