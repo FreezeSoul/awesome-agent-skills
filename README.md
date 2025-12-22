@@ -167,9 +167,25 @@
 
 **Dive deeper into the science!** Academic research exploring Agent Skills and related concepts.
 
+### 🛡️ Security & Safety
+
+- 📄 [Agent Skills Enable a New Class of Realistic and Trivially Simple Prompt Injections](https://arxiv.org/abs/2510.26328) (2025) - Security analysis showing vulnerabilities in Agent Skills markdown files
+
+### 🌐 Interoperability & Standards
+
 - 📄 [A survey of agent interoperability protocols](https://arxiv.org/abs/2505.02279) (2025) - Comprehensive look at MCP, Agent Cards, and more
+
+### 📊 Progressive Disclosure & Transparency
+
 - 📄 [The Effect of Progressive Disclosure in the Transparency of Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-82633-7_17) (2024) - How progressive disclosure affects LLM transparency
 - 📄 [Disclosures & disclaimers: Investigating the impact of transparency disclosures](https://ojs.aaai.org/index.php/HCOMP/article/view/31597) (2024) - Impact study on agent transparency
+
+### 🧠 Skill Learning & Architecture
+
+- 📄 [Reinforcement Learning for Self-Improving Agent with Skill Library](https://arxiv.org/abs/2512.17102) (2024) - Framework for agents to build and maintain skill libraries
+- 📄 [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction](https://arxiv.org/abs/2510.15863) (2024) - Learning generalizable skills through polymorphic abstraction
+
+> 💡 **Note:** Agent Skills (SKILL.md format) is a recent innovation (2024-2025), so academic research is still emerging. Most papers focus on related concepts like skill learning, tool use, and agent architectures.
 
 ## 💬 Join the Community
 
