@@ -55,14 +55,20 @@ This architecture delivers:
 
 ### 📚 Skills Collections & Repositories
 
-**Multi-skill repositories** with diverse capabilities:
+**Multi-skill repositories** with diverse capabilities.
+> ℹ️ *Resources are sorted by popularity (GitHub stars) where applicable.*
+
+#### 🔥 Top Picks
 
 - <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener noreferrer">🏢 Official collection from Anthropic (document editing, data analysis, etc.)</a>
-- <a href="https://github.com/GuDaStudio/skills" target="_blank" rel="noopener noreferrer">🤝 Multi-agent collaboration skills</a>
 - <a href="https://github.com/karanb192/awesome-claude-skills" target="_blank" rel="noopener noreferrer">⭐ 50+ verified skills for Claude Code and Claude.ai</a>
+- <a href="https://github.com/shajith003/awesome-claude-skills" target="_blank" rel="noopener noreferrer">🎯 Skills for specialized capabilities</a>
+
+#### 📂 More Collections
+
+- <a href="https://github.com/GuDaStudio/skills" target="_blank" rel="noopener noreferrer">🤝 Multi-agent collaboration skills</a>
 - <a href="https://github.com/DougTrajano/pydantic-ai-skills" target="_blank" rel="noopener noreferrer">🐍 Pydantic AI integration</a>
 - <a href="https://github.com/OmidZamani/dspy-skills" target="_blank" rel="noopener noreferrer">🔮 Skills for DSPy framework</a>
-- <a href="https://github.com/shajith003/awesome-claude-skills" target="_blank" rel="noopener noreferrer">🎯 Skills for specialized capabilities</a>
 - <a href="https://github.com/ponderous-dustiness314/awesome-claude-skills" target="_blank" rel="noopener noreferrer">📊 Document editing, data analysis, and project management</a>
 - <a href="https://github.com/hikanner/agent-skills" target="_blank" rel="noopener noreferrer">🗂️ Curated Claude Agent Skills collection</a>
 - <a href="https://github.com/gradion-ai/freeact-skills" target="_blank" rel="noopener noreferrer">🎬 Freeact agent library skills</a>
@@ -70,6 +76,8 @@ This architecture delivers:
 - <a href="https://github.com/lifegenieai/claude-skills" target="_blank" rel="noopener noreferrer">🎨 Voice AI, image generation, and web development</a>
 
 ### 🎯 Individual Skills by Category
+
+**Specialized capabilities for specific domains.**
 
 #### 💻 Development & Programming
 
@@ -107,17 +115,10 @@ This architecture delivers:
 - [Cursor](https://cursor.com/) - ⚡ AI-powered code editor with native skills integration ([docs](https://cursor.com/docs/context/skills))
 - [Claude Code](https://claude.ai/code) - 🤖 Anthropic's coding tool with first-class skills support
 - [OpenAI Codex](https://developers.openai.com/codex/skills/) - 💻 OpenAI's CLI agent with Agent Skills support
-
-- [Cursor](https://cursor.com/) - ⚡ AI-powered code editor with native skills integration ([docs](https://cursor.com/docs/context/skills))
-- [Claude Code](https://claude.ai/code) - 🤖 Anthropic's coding tool with first-class skills support
-- [OpenAI Codex](https://developers.openai.com/codex/skills/) - 💻 OpenAI's CLI agent with Agent Skills support
 - [OpenCode](https://opencode.ai/) - 🎯 AI development tool with built-in Agent Skills support
 - [Amp](https://ampcode.com/) - 🚀 Next-gen AI coding assistant
 
 ### 🤖 AI Agent Platforms
-- [GitHub Copilot](https://github.com/features/copilot) - 💙 GitHub's AI coding assistant with Agent Skills support ([docs](https://docs.github.com/copilot/concepts/agents/about-agent-skills), [announcement](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/))
-- [VS Code](https://code.visualstudio.com/) - 💻 Microsoft's editor with Agent Skills in Insiders build
-
 - [GitHub Copilot](https://github.com/features/copilot) - 💙 GitHub's AI coding assistant with Agent Skills support ([docs](https://docs.github.com/copilot/concepts/agents/about-agent-skills), [announcement](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/))
 - [VS Code](https://code.visualstudio.com/) - 💻 Microsoft's editor with Agent Skills in Insiders build
 - [Goose](https://block.github.io/goose/) - 🦆 Open source AI agent framework
