@@ -54,7 +54,7 @@ This architecture delivers:
 
 ### 🎓 Getting Started
 
-- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills) - Perfect introduction for beginners
+- [What are skills?](https://agentskills.io/what-are-skills) - Perfect introduction for beginners
 - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - Quick start guide
 - [Agent Skills Review](https://www.youtube.com/watch?v=tGpeWM7gOlA) - 25-second feature highlight
 
