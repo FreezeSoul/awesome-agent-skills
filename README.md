@@ -113,7 +113,7 @@ This architecture delivers:
 - <a href="https://github.com/hikanner/agent-skills" target="_blank" rel="noopener noreferrer">Curated Claude Agent Skills collection</a>
 - <a href="https://github.com/gradion-ai/freeact-skills" target="_blank" rel="noopener noreferrer">Freeact agent library skills</a>
 
-### 🏪 Skill Marketplaces & Registries
+### 🏪 Skill Marketplaces
 - [SkillsMP](https://skillsmp.com/) - Agent Skills marketplace for Claude Code/Codex (discover, install, and share skills)
 - [Skillstore](https://skillstore.io/) - Curated, security-audited Agent Skills marketplace for Claude Code and Codex
 
