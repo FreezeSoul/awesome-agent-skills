@@ -34,7 +34,7 @@ This architecture delivers:
 
 ### 🏷️ Key Topics
 
-`agent-skills` · `ai-agents` · `llm` · `claude` · `anthropic` · `skill-md` · `progressive-disclosure` · `context-management` · `ai-development` · `mcp` · `agent-architecture` · `agentic-ai` · `automation` · `productivity`
+`agent-skills` · `ai-agents` · `claude-code` · `gemini-cli` ·`codex` · `skill-md` · `progressive-disclosure` · `context-management` · `ai-development` · `mcp` · `agent-architecture` · `agentic-ai` · `automation` · `productivity`
 
 👉 **New to Agent Skills?** Start here: [agentskills.io](https://agentskills.io)
 
@@ -65,10 +65,10 @@ This architecture delivers:
 ### 📰 Key Concepts & Articles
 
 - [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - The original announcement from Anthropic Engineering
-- [Using skills with Deep Agents](https://blog.langchain.com/using-skills-with-deep-agents/) - How generalist agents use skills for efficiency
 - [Agent Skills Explained: Why This Changes Everything](https://www.youtube.com/watch?v=Ihoxov5x66k) - 17-minute analysis of why Skills matter for AI development
 - [Claude Skills vs MCP: Complete Guide](https://dev.to/jimquote/claude-skills-vs-mcp-complete-guide-to-token-efficient-ai-agent-architecture-4mkf) - Comparison of Skills and Model Context Protocol architectures
 - [The Great AI Agent Configuration Confusion](https://medium.com/@satinath.mondal/the-great-ai-agent-configuration-confusion-agents-md-skill-md-and-whats-next-12345) - Understanding configuration standards (SKILL.md, AGENTS.md)
+- [Using skills with Deep Agents](https://blog.langchain.com/using-skills-with-deep-agents/) - How generalist agents use skills for efficiency
 
 ### 🎬 Video Introductions
 - [Don’t Build Agents, Build Skills Instead (Anthropic)](https://www.youtube.com/watch?v=CEvIs9y1uog) - Why “skills” are the scalable abstraction for agent capability
