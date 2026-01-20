@@ -4,7 +4,7 @@ Curated, high-quality resources for building and using Agent Skills across moder
 
 <div align="center">
   <a href="https://agentskills.io">
-    <img src="assets/cover-image.png" alt="Agent Skills" width="50%">
+    <img src="assets/cover-image.png" alt="Agent Skills" width="90%">
   </a>
 </div>
 
