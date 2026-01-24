@@ -21,7 +21,7 @@ Curated, high-quality resources for building and using Agent Skills across moder
 
 Agent Skills are modular, standardized `SKILL.md` packages that give agents on-demand capabilities via progressive disclosure: lightweight metadata can load early, full instructions load only when relevant, and supporting resources are accessed when needed.
 
-`agent-skills` · `ai-agents` · `skill-md` · `progressive-disclosure` · `context-management` · `agent-architecture` · `mcp`.
+`agent-skills` · `ai-agents` · `skill-md` · `progressive-disclosure` · `context-management`.
 
 ## Start Here
 
