@@ -82,6 +82,7 @@ Platforms that support skills today, plus ready-to-use skill catalogs.
 
 #### More Collections
 
+- [Orchestra-Research/AI-research-SKILLs](https://github.com/Orchestra-Research/AI-research-SKILLs) - A collection of AI/ML research and engineering skills.
 - [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - Curated list of Claude skills.
 - [shajith003/awesome-claude-skills](https://github.com/shajith003/awesome-claude-skills) - Skill collection for specialized capabilities.
 - [GuDaStudio/skills](https://github.com/GuDaStudio/skills) - Multi-agent collaboration skills.
