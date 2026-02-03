@@ -142,7 +142,8 @@ Evaluation frameworks and deeper technical reading.
 
 ### Benchmarks and Evaluation
 
-- [benchflow-ai/SkillsBench](https://github.com/benchflow-ai/SkillsBench) - Benchmark: Measuring skills performance on real workflows.
+- [huggingface/upskill](https://github.com/huggingface/upskill) - Upskill: Generate and evaluate agent skills for code agents.
+- [benchflow-ai/SkillsBench](https://github.com/benchflow-ai/SkillsBench) - Benchflow: Measuring skills performance on real workflows.
 
 ### Advanced Engineering
 
