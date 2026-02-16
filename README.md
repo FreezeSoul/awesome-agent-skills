@@ -92,6 +92,7 @@ Platforms that support skills today, plus ready-to-use skill catalogs.
 - [DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) - Pydantic AI integration skills.
 - [OmidZamani/dspy-skills](https://github.com/OmidZamani/dspy-skills) - Skills for DSPy-based workflows.
 - [ponderous-dustiness314/awesome-claude-skills](https://github.com/ponderous-dustiness314/awesome-claude-skills) - Document editing, data analysis, and project management skills.
+- [product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills) - 24 plug-and-play product management skills for the full delivery lifecycle.
 - [hikanner/agent-skills](https://github.com/hikanner/agent-skills) - Curated Agent Skills collection.
 - [gradion-ai/freeact-skills](https://github.com/gradion-ai/freeact-skills) - Freeact skill library.
 
